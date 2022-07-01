@@ -1,0 +1,482 @@
+* {
+  margin:0;
+  padding:0;
+  text-align:center;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family:century-gothic;
+  background-image: linear-gradient(105deg, #ffd6d6 0%, #fef6d7, #d2e4fe 80%);
+}
+
+/* STYLE SECTION TAGS */
+
+header {
+  height:25%;
+}
+main{
+  background-color:#9D6F8C;
+}
+.whatisautism{
+  background-color:#bdcdf8;
+  padding-bottom:1%;
+}
+#aboutautism-section1 {
+  background-color:#7d709e;
+}
+.dontmournsection{
+  background-color:#eae5ff;
+  margin-top:5%;
+}
+#commonalities {
+  background-color:#9fbcb5;
+  padding-top:5.5%;
+}
+#takeaction {
+  background: #f0c975;
+  padding-top: 1%;
+}
+#support {
+  background: #fff2d6;
+  margin-top:3%;
+  padding-top:2.25%;
+  padding-bottom:5%;
+}
+#resources {
+  background: #EF9A9A;
+  padding-top: 1.5%;
+}
+#videos {
+  background: #f9d7ed;
+  margin-top:5%;
+  margin-bottom:0;
+  padding-top: 1.5%;
+  padding-bottom:5%;
+}
+#morepage {
+  background: #435889;
+}
+
+
+
+/* STYLE NAV BAR */
+
+nav {
+  width: 100%;
+  text-align: center;
+  padding-top:3.5%;
+  padding-bottom:5.5%;
+}
+  ul {
+    display: inline-block;
+    border-radius: 5.6px;
+    box-shadow: inset 0px 0px 1px 1px #1b1b1b;
+    padding: 0 1em 0 1em;
+    background: #F8F9F0;
+    margin-left:10%;
+    margin-right:10%;
+  }
+
+  li {
+    display: inline-block;
+    text-align: center;
+    padding: 0 1.5em 0 1.5em;
+  }
+
+  a {
+    display: block;
+    color: #1b1b1b;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 2px;
+    height: 58px;
+    line-height: 58px;
+  }
+
+  li:hover a {
+    color: #86a6fe;
+}
+
+
+
+/* TEXT THAT APPEARS ON MULTIPLE PAGES */
+
+h1 {
+  font-size:60px;
+  font-weight:700;
+  color: #1b1b1b;
+  text-shadow: 2px 2px 18px #fff;
+}
+h2 {
+  font-size:38px;
+  font-weight:555;
+  color:#f5f5f5;
+  margin-bottom:2.5%;
+}
+#headerwithlinksbelow {
+  color:#1b1b1b;
+  padding: 5% 0 2% 0;
+  font-weight:900;
+  margin:0;
+}
+.linkinagroup {
+  font-size: 21px;
+  text-decoration:underline;
+}
+.linkinagroup:hover {
+  text-decoration:none;
+}
+
+
+
+/* Home Page */
+
+.autismhomeintro {
+  display:flex;
+  flex-direction:column;
+  padding: 5% 2% 5% 2%;
+  margin-left:10%;
+  margin-right:10%;
+  justify-content: center;
+  align-items:center;
+  color: #1b1b1b;
+}
+#whatisautismheader{
+  color: #1b1b1b;
+  margin-bottom:38px;
+}
+.autismdefinition {
+  width:70%;
+  border-radius: 0.35em;
+  box-shadow: inset 0px 0px 1px 1px #f5f5f5;
+  font-size: 24px;
+  line-height: 2.15em;
+  padding: 1.5em 3em 1.5em 3em;
+}
+.problemintro {
+  display:flex;
+  flex-direction:column;
+  padding: 5% 2% 5% 2%;
+  margin-left:10%;
+  margin-right:10%;
+  justify-content: center;
+  align-items:center;
+}
+.theproblem {
+  width:70%;
+  color: #fff;
+  border-radius: 0.35em;
+  box-shadow: inset 0px 0px 1px 1px #f5f5f5;
+  font-size: 24px;
+  line-height: 1.5em;
+  padding: 1.5em 3em 1.5em 3em;
+}
+#learnmore {
+  color:#fafbff;
+  background: #21375d;
+  margin:auto;
+  width:50%;
+  letter-spacing:0;
+  border-radius:30px;
+  padding: 0 10px 0 10px;
+  margin-top:35px;
+}
+#learnmore:hover {
+  color:#1b1b1b;
+  background:#86a6fe;
+}
+
+
+
+/* ABOUT PAGE */
+
+#aboutautism-section1{
+  padding: 2em 0 5em 0;
+}
+.aboutautismsymbol{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:70%;
+  color:#fff;
+  margin:auto;
+  padding-top:3.5%;
+}
+#autismribbon {
+  width:30%;
+  padding-right:25px;
+}
+.infinityexplain{
+  width:50%;
+  line-height: 2.25em;
+  font-size:18px;
+}
+.dontmournsection {
+  display:flex;
+  flex-direction:column;
+  padding: 5%;
+  margin-left:10%;
+  margin-right:10%;
+  justify-content: center;
+  align-items:center;
+  padding-bottom:3.9%;
+}
+#dontmournheader {
+  color:#5a5982;
+}
+#dontmourntext {
+  font-weight:400;
+}
+#autismappendage {
+  font-weight: 900;
+  font-size:21px;
+  margin-top:18px;
+  margin-bottom:25px;
+}
+#readdontmourn {
+  color:#fafbff;
+  background: #21375d;
+  margin:auto;
+  width:50%;
+  letter-spacing:0;
+  border-radius:30px;
+  padding: 0 10px 0 10px;
+  margin-top:55px;
+}
+#readdontmourn:hover {
+  color:#1b1b1b;
+  background:#86a6fe;
+}
+#commonalitiesheader{
+  color:#1b1b1b;
+  padding-top:20px;
+}
+#commonalitiescredits {
+  font-size:18px;
+  padding-bottom:5px;
+}
+.commonalitiesimg {
+  padding:5% 0 5% 0;
+  width:60%;
+}
+
+
+
+/* TAKE ACTION PAGE */
+
+#supportlist {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  width:80%;
+  margin-left:auto;
+  margin-right:auto;
+  text-align: left;
+}
+.supportitem {
+  font-size:21px;
+  color: #1b1b1b;
+  width:50%;
+  margin-left:auto;
+  margin-right:auto;
+  margin: 25px 0 15px 0;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+  letter-spacing:0;
+  line-height:1.25em;
+}
+.supportitem > a {
+  text-decoration: underline;
+  font-size: 21px;
+  letter-spacing: 0px;
+  height: auto;
+  line-height: auto;
+}
+.supportitem > a:hover {
+  text-decoration: none;
+}
+
+
+
+/* RESOURCES PAGE */
+
+.video, .video1 {
+  padding: 1em;
+  background:#f7f7f7;
+  border-radius:30px;
+  margin: 2.25% 1em 0 1em;
+}
+
+
+
+/* MORE PAGE */
+
+#googleformheader {
+  font-weight:900;
+  padding: 5% 0 1% 0;
+}
+#googleformintro {
+  font-size:21px;
+  color:#fff;
+  padding:0 0 5% 0;
+  width:50%;
+  margin:auto;
+  line-height:2em;
+}
+#googleformdiv {
+  display:flex;
+  flex-direction:column;
+  background: linear-gradient(#ffe3eb, #feeacd 60%, #c2dcff 90%);
+  border: 6px solid #fff;
+  border-radius: 5px;
+  margin: auto;
+  width:55%;
+  }
+#googleformdiv:hover {
+  background: linear-gradient(#d6f5dc, #f7ebff);
+}
+#googleform {
+  height:555px;
+}
+#googleformimg {
+  width:80%;
+  margin:auto;
+  margin-top:15px;
+  border-radius: 8px;
+}
+.memes{
+  padding-top:8.5%;
+  padding-bottom:7.5%;
+}
+.memesheader{
+  margin-bottom:5%;
+}
+.memeslist{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+  flex-wrap: wrap;
+  width:90%;
+  margin:auto;
+  padding-top:20px;
+  margin-bottom:50px;
+}
+.memeimg {
+  height:350px;
+  margin-top:35px;
+  margin-left:15px;
+  margin-right:15px;
+}
+
+
+
+
+@media (max-width: 587px) {
+  
+  nav{
+    padding-bottom:55px;
+  }
+  h2 {
+    padding: 15px 0 15px 0;
+  }
+  #home {
+    margin-top:50px;
+  }
+  .homeheader {
+    font-size:50px;
+  }
+  #whatisautismheader{
+    margin-bottom:18px;
+  }
+  .autismdefinition, .theproblem {
+    font-size:18px;
+    padding: 1.5em;
+  }
+  #learnmore {
+    width:85%;
+    font-size:15px;
+  }
+  #aboutautism-section1 {
+    padding: 2em 0 5em 0;
+  }
+  .aboutautismsymbol{
+    display:flex;
+    flex-direction:column;
+  }
+  #autismribbon {
+    width:50%;
+    padding-right:0;
+    padding-bottom:25px;
+  }
+  .infinityexplain, #readdontmourn {
+    width:80%;
+  }
+  .dontmournsection {
+    margin-top:12%;
+  }
+  #takeaction {
+    padding: 0 1em 3em 1em;
+  }
+  .takeactionheader {
+    letter-spacing:-5px;
+  }
+  .supportitem {
+    font-size:15px;
+    width:85%;
+    display:flex;
+    flex-direction:column;
+  }
+  .supportitem > a {
+    font-size: 15px;
+    line-height: 1.25em;
+  }
+  .supportitem > a:hover {
+    text-decoration: none;
+  }
+  #headerwithlinksbelow {
+    padding: 50px 0 1.5% 0;
+  }
+  #videos {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }
+  .video {
+    width:80%;
+    margin: 5px 0 10px 0;
+  }
+  .video1 {
+    width:80%;
+    margin: 25px 0 10px 0;
+  }
+  .linkinagroup {
+  font-size: 16px;
+  }
+  #morepage {
+    padding-top:25px;
+  }
+  #googleformintro {
+    font-size:18px;
+    width:70%;
+    line-height:1.5em;
+    padding: 8px 0 28px 0;
+  }
+  #googleformdiv {
+    width:80%;
+  }
+  #googleformimg {
+    width:90%;
+  }
+  .memeimg {
+    width:90%;
+    height:auto;
+  }
+
+
+}
